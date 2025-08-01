@@ -1,4 +1,3 @@
-// src/sections/HeroSection.jsx
 import React from "react";
 import heroVideo from "/video/hero.mp4";
 import { ChevronDown } from "lucide-react";
@@ -41,7 +40,7 @@ const HeroHeading = () => {
 const HeroSection = () => {
   return (
     <section className="relative w-full h-screen overflow-hidden">
-      {/* Background Video */}
+      
       <video
         className="fixed top-0 left-0 w-full h-full object-cover"
         src={heroVideo}
@@ -57,7 +56,7 @@ const HeroSection = () => {
     viewBox="0 0 100 100"
     preserveAspectRatio="none"
   >
-    {/* Left slanting line (bottom-left to top-center) */}
+    
     <line
       x1="88"
       y1="0"
@@ -77,7 +76,7 @@ const HeroSection = () => {
       strokeWidth="0.1"
       strokeOpacity="0.25"
     />
-	    {/* Right slanting line (top-right to bottom-right) */}
+	    
     <line
       x1="83"
       y1="69"
@@ -96,7 +95,7 @@ const HeroSection = () => {
 </div>
 
 
-      {/* Content */}
+      
       <div className="absolute z-20 top-[64%] left-[17%] transform -translate-y-1/2">
         <div className="max-w-7xl">
           <HeroHeading />
@@ -105,7 +104,7 @@ const HeroSection = () => {
 </p>
 
 
-          {/* Chevron */}
+          
           <div className="mt-16">
   <ChevronDown className="text-white w-6 h-6 animate-bounce" />
 </div>
